@@ -24,8 +24,6 @@ This project was built entirely with Python 3, built-in libraries, and VS Code.
 # Custom Rules
 You can create your own rules! Rules are created using the Rule(name, callback) constructor which takes a string describing the rule, and a callback that takes the current `Card`, a `List of Cards` on the Mainline (in order played), all cards played as a `List of Cards` (in order played), and the player's current `Hand`. I've taken the sample rules described by John Golden [here](http://www.logicmazes.com/games/eleusis/express.html) and translated them to this format in **rules.py**. Most of these rules can be written as simple lambda expressions. To add a rule, simply add it to the *rules* list in **rules.py**. 
 
-# Design Choices
-
 
 # Extra Features
 I had a lot of fun making this game. Here's some extra features that I wanted to implement, but ran out of time.
